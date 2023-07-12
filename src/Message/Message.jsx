@@ -21,18 +21,19 @@ const ModalOverlay = (props) => {
           </p>
           <p>I wish you nothing but happiness, good health, and safety always.</p>
           <p>Keep singing your heart out until we fall asleep! Hahaha (: </p>
-          <p className={classes.linkTo}>(please tap the hearrrt!!)</p>
+          <p className={classes.linkTo}>
+            {' '}
+            <a
+              href="https://sajdevopx.github.io/elli-portrait/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              (please tap the here!!){' '}
+            </a>
+          </p>
           <div className={classes.last}>
             <p>-saj</p>
-            <div className="heart">
-              <a
-                href="https://sajdevopx.github.io/elli-portrait/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                🤍
-              </a>
-            </div>
+            <div className="heart">🤍</div>
           </div>
         </div>
       </div>
