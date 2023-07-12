@@ -81,15 +81,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #a4907c;
-  cursor: pointer;
-}
-
-a:visited {
-  color: black;
-}
-
 @keyframes MoveUpDown {
   0% {
     bottom: 220px;
