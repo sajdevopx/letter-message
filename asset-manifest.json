@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/letter-message/static/css/main.5f1917b6.css",
+    "main.js": "/letter-message/static/js/main.352900f1.js",
+    "index.html": "/letter-message/index.html",
+    "main.5f1917b6.css.map": "/letter-message/static/css/main.5f1917b6.css.map",
+    "main.352900f1.js.map": "/letter-message/static/js/main.352900f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f1917b6.css",
+    "static/js/main.352900f1.js"
+  ]
+}
