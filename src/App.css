@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #7fd8be;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  pointer-events: none;
+}
+
+.heart {
+  font-size: 3rem;
+  animation: heart 1s infinite alternate linear;
+  cursor: pointer;
+}
+
+.heart:nth-child(2) {
+  font-size: 2rem;
+  animation: heart 1s infinite alternate linear;
+  cursor: pointer;
+}
+
+@keyframes heart {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.sad {
+  font-size: 2rem;
+  animation: heart 1s infinite alternate linear;
+  cursor: pointer;
+}

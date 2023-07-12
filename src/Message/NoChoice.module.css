@@ -1,0 +1,56 @@
+.header {
+  height: 6px;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #a4907c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.exit {
+  width: 28px;
+  height: 28px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.backdrop {
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  z-index: 30;
+  right: 0;
+  cursor: pointer;
+}
+
+.noChoice {
+  width: 310px;
+  height: 260px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  z-index: 50;
+  right: 0;
+  border-radius: 10px;
+  background-color: #fbffdc;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.noChoiceMessage {
+  padding: 22px;
+  height: 100%;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+}

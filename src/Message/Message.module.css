@@ -1,0 +1,91 @@
+.modal {
+  width: 300px;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  z-index: 30;
+  right: 0;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: #fbffdc;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  animation: MoveUpDown 0.8s linear;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header {
+  height: 8px;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #a4907c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  font-weight: bold;
+}
+
+.first {
+  margin-top: 12px;
+}
+
+.last {
+  width: 100%;
+  text-align: right;
+  margin-top: 12px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.letter {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.body {
+  padding: 30px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.linkTo {
+  margin-top: 6px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.backdrop {
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  right: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes MoveUpDown {
+  0% {
+    bottom: 220px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
