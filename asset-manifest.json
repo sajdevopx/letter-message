@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/letter-message/static/css/main.c44a2dc3.css",
-    "main.js": "/letter-message/static/js/main.fe3f42cf.js",
+    "main.js": "/letter-message/static/js/main.97e86ef8.js",
+    "static/media/song.mp3": "/letter-message/static/media/song.7955160862b898e67b71.mp3",
     "index.html": "/letter-message/index.html",
     "main.c44a2dc3.css.map": "/letter-message/static/css/main.c44a2dc3.css.map",
-    "main.fe3f42cf.js.map": "/letter-message/static/js/main.fe3f42cf.js.map"
+    "main.97e86ef8.js.map": "/letter-message/static/js/main.97e86ef8.js.map"
   },
   "entrypoints": [
     "static/css/main.c44a2dc3.css",
-    "static/js/main.fe3f42cf.js"
+    "static/js/main.97e86ef8.js"
   ]
 }
