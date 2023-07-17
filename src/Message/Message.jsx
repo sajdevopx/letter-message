@@ -19,6 +19,7 @@ const ModalOverlay = (props) => {
             I just wanted to say that you have a very beautiful voice. Thank you for
             sharing your talent with us.
           </p>
+          {/* letting the world, career */}
           <p>I wish you nothing but happiness, good health, and safety always.</p>
           <p>Keep singing your heart out until we fall asleep! Hahaha (: </p>
           <p className={classes.linkTo}>(please tap the hearttt!!) </p>

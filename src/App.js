@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
 import Warning from './Message/Warning';
+import ReactAudioPlayer from 'react-audio-player';
+import ordinary from './assets/song.mp3';
 
 function App() {
   const [warning, setWarning] = useState(false);
@@ -16,6 +18,11 @@ function App() {
       <div className="heart" onClick={showWarningHandler}>
         ✉️
       </div>
+      <ReactAudioPlayer
+        src={ordinary}
+        autoPlay={true}
+        loop={true}
+      ></ReactAudioPlayer>
     </div>
   );
 }
