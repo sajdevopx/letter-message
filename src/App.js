@@ -22,7 +22,6 @@ function App() {
         src={ordinary}
         autoPlay={true}
         loop={true}
-        controls
       ></ReactAudioPlayer>
     </div>
   );
