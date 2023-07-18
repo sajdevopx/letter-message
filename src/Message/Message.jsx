@@ -16,8 +16,8 @@ const ModalOverlay = (props) => {
         <div className={classes.body}>
           <p>Hi elli,</p>
           <p className={classes.first}>
-            I just wanted to say that you have a very beautiful voice. Thank you for
-            sharing your talent with us.
+            Your voice is absolutely lovely, and I want to express my heartfelt
+            gratitude for sharing your wonderful talent with all of us. Thank you!
           </p>
           {/* letting the world, career */}
           <p>I wish you nothing but happiness, good health, and safety always.</p>
@@ -27,7 +27,7 @@ const ModalOverlay = (props) => {
             <p>-saj</p>
             <div className="heart">
               <a
-                href="https://sajdevopx.github.io/elli-portrait/"
+                href="https://sajdevopx.github.io/ordinary-playlist/"
                 target="_blank"
                 rel="noreferrer"
               >
