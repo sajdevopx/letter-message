@@ -16,14 +16,15 @@ const NoChoice = (props) => {
           />
         </div>
         <div className={classes.noChoiceMessage}>
-          <p>Nakakalungkot kung bakit ka nag-Nooo! :(</p>
           <p>
-            Wala kang choice, Elli. Kailangan mo talaga buksan yung letter, joke lang
-            hahaha.
+            Nakakalungkot kung bakit ka nag-Nooo! Dahil jan need mo ko i-followback
+            sa IG HAHAHA jk :(
+          </p>
+          <p>
+            Wala kang choice, Elli. Kailangan mo talaga buksan yung letter hahaha.
           </p>
           <p className={classes.charot}>
-            (You can also view it on the desktop to see the magic. HAHAHAHAHA,
-            charot!)
+            (You can also view it on the desktop to see the magic. HAHAHAHAHA)
           </p>
           <div class="sad">😔</div>
         </div>
